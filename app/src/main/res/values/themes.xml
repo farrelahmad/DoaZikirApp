@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DoaZikirApp" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <item name="colorSurface">@color/blue</item>
+        <item name="android:statusBarColor">@color/blue</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
+
+    <style name="Theme.DoaZikirApp" parent="Base.Theme.DoaZikirApp" />
+
+    <style name="Theme.DzikriPagi" parent="Base.Theme.DoaZikirApp" >
+        <item name="android:statusBarColor">@color/morning_blue</item>
+        <item name="colorSurface">@color/morning_blue</item>
+        <item name="colorOnSurface">@color/white</item>
+    </style>
+
+    <style name="Theme.DzikriPetang" parent="Base.Theme.DoaZikirApp" >
+        <item name="android:statusBarColor">@color/afternoon_orange</item>
+        <item name="colorSurface">@color/afternoon_orange</item>
+        <item name="colorOnSurface">@color/white</item>
+    </style>
+</resources>
